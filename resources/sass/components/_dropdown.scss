@@ -1,0 +1,13 @@
+/* Dropdowns */
+
+.dropdown-menu {
+	font-size: $default-font-size;
+	&:focus {
+		outline: none;
+	}
+	.dropdown-item {
+		&:active {
+			background: initial;
+		}
+	}
+}

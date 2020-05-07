@@ -1,0 +1,60 @@
+.modal-header {
+	align-items: center;
+	.close {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.feedback {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	text-align: center;
+	max-width: 500px;
+	animation: fadeIn 500ms;
+}
+
+.profile-image {
+	position: relative;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+
+	img {
+		width: 70px;
+		height: 70px;
+		border-radius: 100%;
+	}
+}
+
+.profile-name {
+	margin-top: 0.75rem;
+	text-align: center;
+
+	.rtl & {
+		margin-left: auto;
+		margin-right: 0.75rem;
+	}
+
+	.designation,
+	.name {
+		font-family: $type-1;
+		margin-bottom: 0;
+		line-height: 1.5;
+		font-weight: 500;
+	}
+
+	.name {
+		color: $sidebar-light-profile-name-color;
+	}
+
+	.designation {
+		color: $sidebar-light-profile-title-color;
+		font-size: 0.75rem;
+	}
+}
+
+#nprogress .bar {
+	background: $green;
+}
